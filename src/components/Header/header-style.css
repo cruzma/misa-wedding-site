@@ -1,0 +1,85 @@
+/* header begins */
+
+header{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.headerWidth{
+    width:960px;
+}
+
+.topNews{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 31px;
+    background-color: #DDDDDD;
+    width:100%;
+    
+}
+
+.topNews h3{
+    font-family: FuturaBT-Light, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.backgroundImageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 176px;
+    
+}
+
+.backgroundImageContainer div{
+    display: flex;
+    height: 176px;
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundImageContainer div img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    background-color: #ffe2e0;
+    margin: 0;
+}
+
+nav ul li a{
+    color: #909090;
+    text-decoration: none;
+    font-family: FuturaBT-Light, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    transition: .8s;
+
+
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+
+    color: black;
+    opacity: 1;
+}
+
+/* header ends */
