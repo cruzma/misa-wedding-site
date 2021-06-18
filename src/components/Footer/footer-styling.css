@@ -1,0 +1,19 @@
+/* footer */
+
+footer{
+    background-color: #ffe2f0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.social-logo-group{
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+}
+
+.social-logo-group img{
+    width: 20px;
+    height: 20px;
+}

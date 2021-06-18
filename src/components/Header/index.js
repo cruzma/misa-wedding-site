@@ -1,7 +1,7 @@
 import React from 'react';
 import './header-style.css'
 
-function Nav(Props) {
+function Header(Props) {
 
   return (
     <header>
@@ -29,4 +29,4 @@ function Nav(Props) {
   )
 }
 
-export default Nav;
+export default Header;
