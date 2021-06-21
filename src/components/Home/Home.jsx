@@ -34,15 +34,15 @@ return(
     <section className="wrapper mainFlex">
         <div className="photoSlideShow">
             <div class="homePageSlide">
-                <img src={require("../../assets/images/Copy of Lorena19.jpg").default}/>
+                <img src={require("../../assets/images/Copy of Lorena19.jpg").default} alt="Wedding planner setting up table for wedding"></img>
                 <div class="text">Caption</div>
             </div>
             <div class="homePageSlide">
-                <img src={require("../../assets/images/Copy of Styled-69.jpg").default}/>
+                <img src={require("../../assets/images/Copy of Styled-69.jpg").default} alt="two pairs of hands holding each other while showcasing the wedding ring"/>
                 <div class="text">Caption</div>
             </div>
             <div class="homePageSlide">
-                <img src={require("../../assets/images/MelinaBen.jpg").default}/>
+                <img src={require("../../assets/images/MelinaBen.jpg").default} alt="married couple on the beach as the wave splashes on there feet"/>
                 <div class="text">Caption</div>
             </div>
 
@@ -64,7 +64,7 @@ return(
                     </div>
                 </div>
                 <div class="featurePhotoContainer">
-                    <img src={require("../../assets/images/Copy of Styled-2.jpg").default}/>
+                    <img src={require("../../assets/images/Copy of Styled-2.jpg").default} alt="bouquet of roses with engagement ring in the center"></img>
                 </div>
             </div>
         </div>
