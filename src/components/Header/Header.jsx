@@ -1,7 +1,11 @@
 import React from 'react';
 import './header-style.css'
 
-function Header(Props) {
+function Header(props) {
+
+    const {
+        setHomeSelected
+    } = props
 
   return (
     <header>
@@ -15,7 +19,9 @@ function Header(Props) {
         </div>
         <nav className="headerWidth">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" onClick={() => {
+                    setHomeSelected(true);
+                }}>Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Kind Words</a></li>
