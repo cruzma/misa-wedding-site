@@ -59,7 +59,7 @@ function Services(prop){
                     <div><img src={require("../../assets/images/Styled-44.jpg").default} alt="brides and bridesmaids cheers to good times"></img></div>
                     <div><img src={require("../../assets/images/Styled-69.jpg").default} alt="bride and groom holding hands"></img></div>
                 </div>
-                <div>
+                <div className="service-details-left">
                     <div className="align-text-right">
                         <h1>partial wedding planning</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem rerum ad blanditiis unde adipisci ipsum, natus modi sunt perferendis earum corporis veritatis maiores sed enim sint accusamus facilis eos delectus officia deserunt. Quos impedit, facilis at voluptate et amet ut, atque qui neque praesentium ea quod unde fuga incidunt.</p>
@@ -105,7 +105,7 @@ function Services(prop){
             </div>
             <section className="service-section">
                 <div>
-                    <div>
+                    <div className="service-details-container">
                         <h1>Day of Coordination</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium expedita ad vero doloremque magnam veritatis odio, iusto, repellat quibusdam earum provident. Quo consequuntur possimus minima magnam nobis hic! Dolore, perferendis consequatur. Quam repellendus fugit voluptas nostrum accusamus libero optio, esse illo, minima ipsam ducimus explicabo iste veniam delectus ullam eius?</p>
                     </div>

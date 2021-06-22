@@ -25,6 +25,7 @@ p{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    background-image: linear-gradient(#ffe2e0, white);
 }
 
 .service-images-container div{
@@ -41,4 +42,12 @@ p{
 
 .align-text-right{
     text-align: right;
+}
+
+.service-details-container{
+    padding-left: 20px;
+}
+
+.service-details-left{
+    padding-right: 20px;
 }
