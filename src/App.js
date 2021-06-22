@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import About from './components/About/About'
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
+import Services from './components/Services/Services';
 import React, { useState } from 'react';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         homeSelected ={homeSelected}
       ></Header>
       <main>
-        <About></About>
+        <Services></Services>
        
       </main>
       

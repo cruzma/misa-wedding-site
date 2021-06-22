@@ -1,0 +1,41 @@
+@font-face {
+    font-family: FuturaLight;
+    src: url(../../assets/Futura\ Light\ Regular.otf);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+}
+
+h1{
+    font-family: "Great vibes", cursive;
+    font-size: 50px;
+}
+
+p{
+    font-family: FuturaLight;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.full-service-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.full-service-images-container div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
