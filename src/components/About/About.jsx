@@ -10,7 +10,7 @@ function About(props){
             </section>
             <section className="mid-section">
                 <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore enim incidunt laudantium qui minima quaerat esse, veritatis placeat. Error sunt adipisci hic odit facilis dolorem nulla recusandae id consequuntur iure tempora soluta aliquam atque reiciendis voluptate quo laborum ad, illum delectus magnam. Saepe iusto consequatur praesentium eum quia neque sapiente qui ab laborum, omnis quasi doloremque! Similique, excepturi ea! Rerum neque ad assumenda similique inventore alias corrupti, molestias ducimus natus! Veritatis eveniet, officia unde provident reiciendis quaerat tenetur similique ipsa, perspiciatis, sint laboriosam quod dolores. Voluptas ipsa nihil impedit atque nobis natus, tempore culpa incidunt optio. Vel hic quaerat architecto.</p></div>
-                <div><img src={require("../../assets/images/Copy of Lorena16.jpg").default} alt="Wedding planner sitting on the floor by desk smiling at the camera"></img></div>
+                <div><img src={require("../../assets/images/Lorena16.jpg").default} alt="Wedding planner sitting on the floor by desk smiling at the camera"></img></div>
             </section>
             <section className="bottom-section">
                 <div className="promise-box bottom-section-item">

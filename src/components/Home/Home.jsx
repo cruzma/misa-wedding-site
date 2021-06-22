@@ -34,11 +34,11 @@ return(
     <section className="wrapper mainFlex">
         <div className="photoSlideShow">
             <div class="homePageSlide">
-                <img src={require("../../assets/images/Copy of Lorena19.jpg").default} alt="Wedding planner setting up table for wedding"></img>
+                <img src={require("../../assets/images/Styled-69.jpg").default} alt="bride and groom holding each others hands while showcasing the wedding ring"></img>
                 <div class="text">Caption</div>
             </div>
             <div class="homePageSlide">
-                <img src={require("../../assets/images/Copy of Styled-69.jpg").default} alt="two pairs of hands holding each other while showcasing the wedding ring"/>
+                <img src={require("../../assets/images/Styled-44.jpg").default} alt="bride and bridesmaids cheers to good times"/>
                 <div class="text">Caption</div>
             </div>
             <div class="homePageSlide">

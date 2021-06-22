@@ -14,7 +14,7 @@ function Header(props) {
         </div>
         <div className="backgroundImageContainer headerWidth">
             <div>
-                <img src={require("../../assets/images/Official Logo_Black No Background.jpg").default}/>
+                <img src={require("../../assets/images/Official Logo_Black No Background.jpg").default} alt=""/>
             </div>
         </div>
         <nav className="headerWidth">
