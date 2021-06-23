@@ -64,7 +64,7 @@ return(
                     </div>
                 </div>
                 <div class="featurePhotoContainer">
-                    <img src={require("../../assets/images/Copy of Styled-2.jpg").default} alt="bouquet of roses with engagement ring in the center"></img>
+                    <img src={require("../../assets/images/Styled-2.jpg").default} alt="bouquet of roses with engagement ring in the center"></img>
                 </div>
             </div>
         </div>
