@@ -67,12 +67,33 @@ p{
 
 .centered div{
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .centered:hover{
     opacity: 1;
     transition: 1.2s;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+}
+
+.gallery-container{
+    border: 1px solid white;
+    width: 60%;
+    height: 40px;
+    transform: translateY(100%);
+    transition: .6s;
+}
+
+.gallery-container p{
+    margin-bottom: 5px;
+}
+
+.centered:hover .gallery-container{
+    transform: translate(0);
+    transition: .6s
 }
 
 .last-story{

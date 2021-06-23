@@ -16,9 +16,9 @@ function Stories(prop){
                     <div>
                         <h1>Minimalist boho style shoot</h1>
                         <p>June 18 2019 | Guild Inn Estate</p>
-                        <div>
+                        <a href="#" className="gallery-container">
                             <p>View Gallery</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <img src={require("../../assets/images/MateoCass.jpg").default}></img>
