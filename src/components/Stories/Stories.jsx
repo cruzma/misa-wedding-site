@@ -17,7 +17,7 @@ function Stories(prop){
                         <h1>Minimalist boho style shoot</h1>
                         <p>June 18 2019 | Guild Inn Estate</p>
                         <a href="#" className="gallery-container">
-                            <p>View Gallery</p>
+                           View Gallery 
                         </a>
                     </div>
                 </div>

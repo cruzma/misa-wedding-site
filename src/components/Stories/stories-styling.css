@@ -80,15 +80,21 @@ p{
 }
 
 .gallery-container{
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.675);
     width: 60%;
     height: 40px;
     transform: translateY(100%);
     transition: .6s;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.675);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.gallery-container p{
-    margin-bottom: 5px;
+.gallery-container:hover{
+    border:1px solid white;
+    color: white;
 }
 
 .centered:hover .gallery-container{
