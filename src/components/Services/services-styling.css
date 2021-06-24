@@ -3,14 +3,6 @@
     src: url(../../assets/Futura\ Light\ Regular.otf);
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1080px;
-}
-
 h1{
     font-family: "Great vibes", cursive;
     font-size: 50px;

@@ -3,13 +3,13 @@
     src: url(../../assets/Futura\ Light\ Regular.otf);
 }
 
-.wrapper{
+/* .wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1080px;
-}
+} */
 
 .top-banner{
     margin-top: 20px;

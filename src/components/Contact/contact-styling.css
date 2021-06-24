@@ -1,0 +1,33 @@
+@font-face {
+    font-family: FuturaLight;
+    src: url(../../assets/Futura\ Light\ Regular.otf);
+}
+
+.wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.left-side{
+    width: 50%;
+}
+.right-side{
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hours-container{
+    background-image: linear-gradient(#ffe2e0, white);
+    padding: 20px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    
+}
