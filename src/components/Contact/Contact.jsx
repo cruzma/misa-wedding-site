@@ -20,7 +20,7 @@ function Contact(prop){
                     <p>Saturday: 9-6</p>
                     <p>Sunday: Out of Office</p>
                 </div>
-                <div></div>
+                <div><img src={require("../../assets/images/Styled-69.jpg").default} alt="bride and groom holding hands"></img></div>
             </div>
             <div className="right-side">
                 <h1>Connect</h1>
@@ -33,19 +33,22 @@ function Contact(prop){
                     <input type="text" id="email" name="email"/>
                     <label for="phone">Phone</label>
                     <input type="text" id="phone" name="phone"></input>
-                    <p>How can i help</p>
-                    <input type="radio" id="html" name="fav_language" value="HTML"/>
-                    <label for="html">full planning</label>
-                    <input type="radio" id="css" name="fav_language" value="CSS"/>
-                    <label for="css">partial planning</label>
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript"></input>
-                    <label for="javascript">Day of Coordinarion</label>
+                    <p>How can i help:</p>
+                    <div>
+                        <input type="radio" id="full" name="service" value="full"/>
+                        <label for="full">full planning</label><br></br>
+                        <input type="radio" id="partial" name="service" value="partial"/>
+                        <label for="partial">&nbsp; partial planning</label><br></br>
+                        <input type="radio" id="dayOf" name="service" value="dayOf"></input>
+                        <label for="dayOf">&nbsp; Day of Coordination</label>
+                    </div>
                     <label for="date">Wedding Date</label>
                     <input type="text" id="date" name="date"></input>
-                    <label for="about"></label>
-                    <textarea type="text" id="about" name="about"></textarea>
+                    <label for="about">Tell me about the big day!</label>
+                    <textarea type="text" id="about" name="about" rows="20"></textarea>
                     <label for="instagram">Instagram</label>
                     <input type="text" id="instagram" name="instagram"></input>
+                    <input type="submit" value="Submit" class="input-submit"></input>
 
                 </form>
             </div>
