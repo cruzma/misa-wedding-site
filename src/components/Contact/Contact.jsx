@@ -4,7 +4,7 @@ import './contact-styling.css';
 
 function Contact(prop){
     return(
-        <section className="wrapper">
+        <section className="wrapper wrapper-fix">
             <div className="left-side">
                 <div className="hours-container">
                     <p>instagram</p>

@@ -4,7 +4,11 @@ import './header-style.css'
 function Header(props) {
 
     const {
-        setHomeSelected
+        setHomeSelected,
+        setAboutSelected,
+        setStoriesSelected,
+        setServicesSelected,
+        setContactsSelected
     } = props
 
   return (
@@ -21,12 +25,41 @@ function Header(props) {
             <ul>
                 <li><a href="#" onClick={() => {
                     setHomeSelected(true);
+                    setAboutSelected(false);
+                    setStoriesSelected(false);
+                    setServicesSelected(false);
+                    setContactsSelected(false);
                 }}>Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#" onClick={() => {
+                    setHomeSelected(false);
+                    setAboutSelected(true);
+                    setStoriesSelected(false);
+                    setServicesSelected(false);
+                    setContactsSelected(false);
+
+                }}>About</a></li>
+                <li><a href="#" onClick={() => {
+                    setHomeSelected(false);
+                    setAboutSelected(false);
+                    setStoriesSelected(false);
+                    setServicesSelected(true);
+                    setContactsSelected(false);
+                }}>Services</a></li>
                 <li><a href="#">Kind Words</a></li>
-                <li><a href="#">Stories</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" onClick={() => {
+                    setHomeSelected(false);
+                    setAboutSelected(false);
+                    setStoriesSelected(true);
+                    setServicesSelected(false);
+                    setContactsSelected(false);
+                }}>Stories</a></li>
+                <li><a href="#" onClick={() => {
+                    setHomeSelected(false);
+                    setAboutSelected(false);
+                    setStoriesSelected(false);
+                    setServicesSelected(false);
+                    setContactsSelected(true);
+                }}>Contact</a></li>
             </ul>
         </nav>
 
