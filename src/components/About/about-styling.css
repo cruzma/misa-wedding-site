@@ -1,16 +1,3 @@
-@font-face {
-    font-family: FuturaLight;
-    src: url(../../assets/Futura\ Light\ Regular.otf);
-}
-
-/* .wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1080px;
-} */
-
 .top-banner{
     margin-top: 20px;
     height: 40vh;
@@ -18,13 +5,15 @@
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/Lorena19.jpg");
     background-size: cover;
-    background-position: 0% 35%;
+    background-position: 20% 53%;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: azure;
-    font-family: 'Great Vibes', cursive;
+}
+
+.top-banner h1{
     font-size: 100px;
+    font-weight: lighter;
 }
 
 .mid-section{
@@ -65,10 +54,6 @@
 
 h2{
     font-family: 'Great Vibes', cursive;
-}
-
-.bottom-section p{
-    font-family: FuturaLight;
 }
 
 .values-box{

@@ -1,33 +1,13 @@
-@font-face {
-    font-family: FuturaLight;
-    src: url(../../assets/Futura\ Light\ Regular.otf);
-}
-
-/* .wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1080px;
-} */
-
-h1{
-    font-family: "Great vibes", cursive;
-    font-size: 50px;
-    margin-bottom: 0;
-}
-
-p{
-    font-family: FuturaLight;
-    line-height: 1.5;
-}
-
 .story-pitch{
     text-align: center;
     align-items: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.story-pitch h1{
+    margin-bottom: 0;
 }
 
 .para-container{
@@ -71,6 +51,10 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.centered div p{
+    color: white;
 }
 
 .centered:hover{

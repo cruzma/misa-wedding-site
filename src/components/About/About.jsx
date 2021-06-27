@@ -5,7 +5,7 @@ function About(props){
     return(
         <div className="wrapper">
             <section className="top-banner">
-                <p>about me</p>
+                <h1>About Me</h1>
                
             </section>
             <section className="mid-section">

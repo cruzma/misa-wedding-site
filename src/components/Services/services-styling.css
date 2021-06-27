@@ -1,16 +1,6 @@
-@font-face {
-    font-family: FuturaLight;
-    src: url(../../assets/Futura\ Light\ Regular.otf);
-}
-
 h1{
     font-family: "Great vibes", cursive;
     font-size: 50px;
-}
-
-p{
-    font-family: FuturaLight;
-    line-height: 1.5;
 }
 
 .service-section{

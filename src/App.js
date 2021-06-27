@@ -8,7 +8,6 @@ import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import React, { useState } from 'react';
 
-
 function App() {
 
   const [homeSelected, setHomeSelected] = useState(true);

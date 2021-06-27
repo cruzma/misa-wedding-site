@@ -20,7 +20,7 @@ function Contact(prop){
                     <p>Saturday: 9-6</p>
                     <p>Sunday: Out of Office</p>
                 </div>
-                <div><img src={require("../../assets/images/Styled-69.jpg").default} alt="bride and groom holding hands"></img></div>
+                <div className="image-container"><img src={require("../../assets/images/DSCF5136.jpg").default} alt="bride and groom holding hands"></img></div>
             </div>
             <div className="right-side">
                 <h1>Connect</h1>
