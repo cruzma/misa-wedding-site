@@ -3,7 +3,7 @@ import './about-styling.css';
 
 function About(props){
     return(
-        <div className="wrapper fade-in">
+        <div className="wrapper about-wrapper-fix fade-in">
             <section className="top-banner">
                 <h1>About Me</h1>
                

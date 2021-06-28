@@ -1,0 +1,31 @@
+.wrapper{
+    margin-bottom: 20px;
+}
+
+.top-para-container{
+    width: 45%;
+}
+
+.kindwords-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.kindwords-left{
+    width: 50%;
+}
+
+.kindwords-right{
+    width: 50%;
+}
+
+.client-words{
+    width: 50%;
+    padding: 20px 65px 20px 65px;
+    text-align: center;
+}
+
+.image-size{
+    width:50%;
+    height: 600px;
+}

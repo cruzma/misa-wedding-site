@@ -4,6 +4,7 @@ import About from './components/About/About'
 import Home from './components/Home/Home';
 import Stories from './components/Stories/Stories';
 import Contact from './components/Contact/Contact';
+import Kindwords from './components/Kind-words/Kindwords';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import React, { useState } from 'react';
@@ -15,6 +16,7 @@ function App() {
   const [storiesSelected, setStoriesSelected] = useState(false);
   const [servicesSelected, setServicesSelected] = useState(false);
   const [contactsSelected, setContactsSelected] = useState(false);
+  const [KindwordsSelected, setKindwordsSelected] = useState(false);
 
   return (
     <div> 
@@ -29,9 +31,11 @@ function App() {
         setServicesSelected = {setServicesSelected}
         contactsSelected = {contactsSelected}
         setContactsSelected = {setContactsSelected}
+        KindwordsSelected = {KindwordsSelected}
+        setKindwordsSelected = {setKindwordsSelected}
       ></Header>
       <main>
-        {!aboutSelected && !storiesSelected && !servicesSelected && !contactsSelected ?(
+        {!aboutSelected && !storiesSelected && !servicesSelected && !contactsSelected && !KindwordsSelected ?(
           <>
             <Home></Home>
           </>
@@ -39,6 +43,8 @@ function App() {
           <About></About>
         ) : servicesSelected ? (
           <Services></Services>
+        ) : KindwordsSelected ? (
+          <Kindwords></Kindwords>
         ) : storiesSelected ? (
           <Stories></Stories>
         ) : contactsSelected ? (

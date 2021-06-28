@@ -8,7 +8,8 @@ function Header(props) {
         setAboutSelected,
         setStoriesSelected,
         setServicesSelected,
-        setContactsSelected
+        setContactsSelected,
+        setKindwordsSelected
     } = props
 
   return (
@@ -29,6 +30,7 @@ function Header(props) {
                     setStoriesSelected(false);
                     setServicesSelected(false);
                     setContactsSelected(false);
+                    setKindwordsSelected(false);
                 }}>Home</a></li>
                 <li><a href="#" onClick={() => {
                     setHomeSelected(false);
@@ -36,7 +38,7 @@ function Header(props) {
                     setStoriesSelected(false);
                     setServicesSelected(false);
                     setContactsSelected(false);
-
+                    setKindwordsSelected(false);
                 }}>About</a></li>
                 <li><a href="#" onClick={() => {
                     setHomeSelected(false);
@@ -44,14 +46,23 @@ function Header(props) {
                     setStoriesSelected(false);
                     setServicesSelected(true);
                     setContactsSelected(false);
+                    setKindwordsSelected(false);
                 }}>Services</a></li>
-                <li><a href="#">Kind Words</a></li>
+                <li><a href="#" onClick={() => {
+                    setHomeSelected(false);
+                    setAboutSelected(false);
+                    setKindwordsSelected(true);
+                    setStoriesSelected(false);
+                    setServicesSelected(false);
+                    setContactsSelected(false);
+                }}>Kind Words</a></li>
                 <li><a href="#" onClick={() => {
                     setHomeSelected(false);
                     setAboutSelected(false);
                     setStoriesSelected(true);
                     setServicesSelected(false);
                     setContactsSelected(false);
+                    setKindwordsSelected(false);
                 }}>Stories</a></li>
                 <li><a href="#" onClick={() => {
                     setHomeSelected(false);
@@ -59,6 +70,7 @@ function Header(props) {
                     setStoriesSelected(false);
                     setServicesSelected(false);
                     setContactsSelected(true);
+                    setKindwordsSelected(false);
                 }}>Contact</a></li>
             </ul>
         </nav>
