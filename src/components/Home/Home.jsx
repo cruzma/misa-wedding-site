@@ -31,7 +31,7 @@ function Home(props){
     // }
 
 return(
-    <section className="wrapper mainFlex">
+    <section className="wrapper mainFlex fade-in">
         <div className="photoSlideShow">
             <div class="homePageSlide">
                 <img src={require("../../assets/images/Styled-69.jpg").default} alt="bride and groom holding each others hands while showcasing the wedding ring"></img>

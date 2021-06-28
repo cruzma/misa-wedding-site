@@ -4,7 +4,7 @@ import './services-styling.css';
 
 function Services(prop){
     return(
-        <div className="wrapper">
+        <div className="wrapper fade-in">
             <section className="service-section">
                 <div className="service-details-container">
                     <div>

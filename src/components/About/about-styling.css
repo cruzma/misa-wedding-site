@@ -8,12 +8,12 @@
     background-position: 20% 53%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: azure;
 }
 
 .top-banner h1{
     font-size: 100px;
-    font-weight: lighter;
 }
 
 .mid-section{

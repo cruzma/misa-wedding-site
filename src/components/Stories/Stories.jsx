@@ -4,7 +4,7 @@ import './stories-styling.css';
 
 function Stories(prop){
     return(
-        <div className="wrapper">
+        <div className="wrapper fade-in">
             <div className="story-pitch">
                 <h1>Stories</h1>
                 <div className="para-container">

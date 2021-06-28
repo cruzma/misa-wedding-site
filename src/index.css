@@ -46,4 +46,19 @@ p{
   color: #303030;
 }
 
+.fade-in{
+  animation: article-load 2000ms ease-in-out;
+}
+
+
+
+@keyframes article-load {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
 
