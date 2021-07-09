@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
+import './slider-style.css';
 
 const ImageSlider = ({ slides }) => {
 
@@ -11,8 +11,8 @@ const ImageSlider = ({ slides }) => {
 
     return(
         <div className="slider">
-            <div className="prev" />
-            <div className="next" />
+            <a className="prev">&#10094;</a>
+            <a className="next">&#10094;</a>
            {SliderData.map((slide, index) => {
                return <img src={slide.image} alt={slide.description}/>
            })} 
