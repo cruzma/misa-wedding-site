@@ -5,42 +5,6 @@
     align-items: center;
 }
 
-.photoSlideShow{
-    margin-top: 20px;
-    height: 30vh;
-    width:100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-
-.homePageSlide{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-}
-
-.text{
-    color: #f2f2f2;
-    font-size: 15px;
-    position: absolute;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.homePageSlide img{
-    object-fit: cover;
-    width:100%;
-    height:100%;
-}
-
 .pOneBox{
     background-color: #fcfafade;
     margin-top: 20px;
