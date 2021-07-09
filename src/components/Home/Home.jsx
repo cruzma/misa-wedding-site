@@ -34,16 +34,16 @@ return(
     <section className="wrapper wrapper-fix mainFlex fade-in">
         <div className="photoSlideShow">
             <div class="homePageSlide">
+                <div class="text"><h1>Caption</h1></div>
                 <img src={require("../../assets/images/Styled-69.jpg").default} alt="bride and groom holding each others hands while showcasing the wedding ring"></img>
-                <div class="text">Caption</div>
             </div>
             <div class="homePageSlide">
+                <div class="text"><h1>Caption</h1></div>
                 <img src={require("../../assets/images/Styled-44.jpg").default} alt="bride and bridesmaids cheers to good times"/>
-                <div class="text">Caption</div>
             </div>
             <div class="homePageSlide">
+                <div class="text"><h1>Caption</h1></div>
                 <img src={require("../../assets/images/MelinaBen.jpg").default} alt="married couple on the beach as the wave splashes on there feet"/>
-                <div class="text">Caption</div>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
