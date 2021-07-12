@@ -27,7 +27,10 @@ const ImageSlider = ({ slides }) => {
                 return(
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
                         {index === current && (
-                            <img src={slide.image} alt={slide.description} key={slide.id} className="image"/>
+                            <div className="image">
+                                <div className="carousel-text"><h1>{slide.caption}</h1></div>
+                                <img src={slide.image} alt={slide.description} key={slide.id} />   
+                            </div>
                         )}
                        
                     </div>
@@ -35,6 +38,7 @@ const ImageSlider = ({ slides }) => {
                 
             })} 
             <div className="prev" onClick={prevSlide}>&#10094;</div>
+            
             <div className="next" onClick={nextSlide}>&#10095;</div>
         </div>
             
