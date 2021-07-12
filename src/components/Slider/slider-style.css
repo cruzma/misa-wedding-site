@@ -44,6 +44,16 @@
     justify-content: center;
 }
 
+.slide{
+  opacity: 0;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
 
 .image{
     display: flex;

@@ -1,6 +1,6 @@
 import Photo1 from '../../assets/images/Styled-69.jpg'
 import Photo2 from '../../assets/images/Styled-44.jpg'
-import Photo3 from '../../assets/images/MelinaBen.jpg'
+import Photo3 from '../../assets/images/Styled-59.jpg'
 
 export const SliderData = [
     {
