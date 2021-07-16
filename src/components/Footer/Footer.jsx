@@ -13,7 +13,10 @@ function Footer(props){
                 
             </section>
             <section>
-                <p>Insta Placeholder</p>
+                <>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-acbe1690-693a-43e6-b5fd-0ee440e64b44"></div>
+                </>
             </section>
             <section>
                 <h3>Follow</h3>
