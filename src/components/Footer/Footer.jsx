@@ -14,16 +14,16 @@ function Footer(props){
             </section>
             <section>
                 <>
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-acbe1690-693a-43e6-b5fd-0ee440e64b44"></div>
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-b59ea761-94d3-4aff-9617-0d2bbc769ccc"></div>
                 </>
             </section>
             <section>
                 <h3>Follow</h3>
                 <div className="social-logo-group">
-                    <a href="#"><img src={require("../../assets/images/instagram.svg").default}/></a>
-                    <a href="#"><img src={require("../../assets/images/twitter.svg").default}/></a>
-                    <a href="#"><img src={require("../../assets/images/facebook.svg").default}/></a>
+                    <a href="https://www.instagram.com/mlcruzin/"><img src={require("../../assets/images/instagram.svg").default}/></a>
+                    <a href="https://twitter.com/mlcruzin"><img src={require("../../assets/images/twitter.svg").default}/></a>
+                    <a href="https://www.facebook.com/cruzin4life"><img src={require("../../assets/images/facebook.svg").default}/></a>
                 </div>
             </section>
             
