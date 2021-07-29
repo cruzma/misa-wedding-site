@@ -53,7 +53,7 @@ header{
     
 }
 
-nav ul{
+.link-list{
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
@@ -82,4 +82,43 @@ nav ul li a:focus{
     opacity: 1;
 }
 
+.burger-icon{
+    display: none;
+}
+
 /* header ends */
+
+@media screen and (max-width: 768px){
+    .headerWidth{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .headerWidth{
+        width: 100%;
+    }
+
+    .link-list{
+        display: none;
+        width: 100%;
+    }
+
+    .link-list.active{
+        display: block;
+    }
+
+    .burger-icon{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .burger-icon div{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+
+}

@@ -57,3 +57,34 @@
     width: 80%;
     object-fit: cover;
 }
+
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 735px){
+
+}
+
+@media screen and (max-width: 590px){
+    .kindWordsSlideShow{
+        flex-direction: column;
+        align-items: center;
+        height: 820px;
+    }
+
+    .kindWordsContainer{
+        width: 100%;
+    }
+
+    .featurePhotoContainer{
+        width: 100%;
+    }
+
+    .featurePhotoContainer img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}

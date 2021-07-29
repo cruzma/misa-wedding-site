@@ -22,3 +22,11 @@ footer{
 .social-logo-group img{
     width: auto;
 }
+
+@media screen and (max-width: 425px){
+    footer{
+        position: relative;
+        width: 100%;
+        
+    }
+}

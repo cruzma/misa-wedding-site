@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header-style.css'
 
 function Header(props) {
@@ -12,6 +12,9 @@ function Header(props) {
         setKindwordsSelected
     } = props
 
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+
   return (
     <header>
         <div className="topNews">
@@ -23,7 +26,12 @@ function Header(props) {
             </div>
         </div>
         <nav className="headerWidth">
-            <ul>
+        <div class="burger-icon" onClick={handleClick}>
+                <div></div>
+                <div></div>
+                <div></div>
+        </div>
+            <ul className={click ? "link-list active" : "link-list"}>
                 <li><a href="#" onClick={() => {
                     setHomeSelected(true);
                     setAboutSelected(false);
@@ -73,6 +81,7 @@ function Header(props) {
                     setKindwordsSelected(false);
                 }}>Contact</a></li>
             </ul>
+ 
         </nav>
 
         
