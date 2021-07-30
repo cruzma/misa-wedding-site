@@ -1,11 +1,11 @@
 .about-wrapper-fix{
-    width: 1080px;
+    width: 100%;
 }
 
 .top-banner{
     margin-top: 20px;
     height: 30vh;
-    width: 100%;
+    width: 90%;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/Lorena19.jpg");
     background-size: cover;
@@ -23,7 +23,7 @@
 .mid-section{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     
 }
@@ -44,26 +44,66 @@
 .bottom-section{
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(17, 1fr);
-    grid-auto-rows: minmax(150px, 1fr);
-    row-gap: 20px;
-    column-gap: 10px;
+    /* grid-template-columns: repeat(17, 1fr); */
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    /* grid-auto-rows: minmax(150px, 1fr); */
+    /* row-gap: 20px;
+    column-gap: 10px; */
+    grid-gap: 2rem;
     text-align: center;
     line-height: 1.5;
 }
 
-.bottom-section-item{
+/* .bottom-section-item{
     grid-column: span 5;
-}
+} */
 
 h2{
     font-family: 'Great Vibes', cursive;
 }
 
-.values-box{
+/* .values-box{
     grid-column: 7 / span 5;
 }
 
 .sustain-box{
     grid-column: 13 / span 5;
+} */
+
+
+@media screen and (max-width: 1088px){
+    .top-banner{
+        width: 100%;
+    }
+    .about-wrapper-fix{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 735px){
+
+}
+
+@media screen and (max-width: 590px){
+    .top-banner h1{
+        font-size: 80px;
+    }
+    .mid-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mid-section div{
+        max-height: fit-content;
+    }
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .top-banner h1{
+        font-size: 60px;
+    }
 }
