@@ -11,7 +11,7 @@ function Kindwords(prop){
                     <p>I'm so grateful for the amazing couples that I get to work with. I'm the luckiest planner ever to get kind words like these :)</p>
                 </div>
             </div>
-            <div className="kindwords-row">
+            <div className="kindwords-container">
                 <div className="kindwords-row kindwords-right">
                     <div className="client-words">
                         <h1>Benjamin & Melina</h1>

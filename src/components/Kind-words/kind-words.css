@@ -6,6 +6,11 @@
     width: 45%;
 }
 
+.kindwords-container{
+    display: flex;
+    flex-direction: row;
+}
+
 .kindwords-row{
     display: flex;
     flex-direction: row;
@@ -28,4 +33,38 @@
 .image-size{
     width:50%;
     height: 600px;
+}
+
+@media screen and (max-width: 770px){
+    .kindwords-container{
+        flex-direction: column;
+    }
+    .kindwords-left{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .kindwords-right{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 590px){
+    .kindwords-left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .kindwords-right{
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-words{
+        width: 70%;
+    }
+    .image-size{
+        width: 100%;
+        height: auto;
+    }
+
 }
