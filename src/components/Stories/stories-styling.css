@@ -91,3 +91,20 @@
     margin-bottom: 20px;
 
 }
+
+@media screen and (max-width: 768px){
+    .centered{
+        opacity: 1;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    }
+
+    .gallery-container{
+        transform: translate(0);
+    }
+}
+
+@media screen and (max-width: 425px){
+    .story-container img{
+        object-position: center;
+    }
+}
