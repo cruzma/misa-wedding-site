@@ -17,21 +17,21 @@ function About(props){
                     <div><img src={require("../../assets/images/promise.png").default} alt="drawing of fingers crossed"></img></div>
                     <div>
                         <h2>Promises</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, magnam. Maiores fugiat, accusantium tempore amet, excepturi cum deserunt architecto labore ratione repellat voluptates quo odit illum quam sunt dicta dolor reprehenderit est culpa provident. Odit iste maxime eveniet facere est, atque error, ducimus dolorum neque cupiditate asperiores placeat modi blanditiis!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quia necessitatibus aliquam porro suscipit labore architecto hic earum molestias reprehenderit.</p>
                     </div>
                 </div>
                 <div className="values-box bottom-section-item">
                     <div><img src={require("../../assets/images/values.png").default} alt="drawing of Stars shinning"></img></div>
                     <div>
                         <h2>Values</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae culpa eius alias libero, nemo rem veritatis quo, dolore eligendi ipsa corporis doloremque sit excepturi, quasi maiores totam illum. Dolore, nisi ab at adipisci sequi minima cum tenetur praesentium officia inventore id dignissimos deserunt quo delectus, repellat earum iusto animi consequatur.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod cumque aspernatur praesentium iste fuga saepe illum ducimus.</p>
                     </div>
                 </div>
                 <div className="sustain-box bottom-section-item">
                     <div><img src={require("../../assets/images/sustainability.png").default} alt="drawing of hand holding a growing plant"></img></div>
                     <div>
                         <h2>Sustainability</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat velit esse, necessitatibus tempore quaerat quod laudantium et optio enim eius qui sed ipsa molestiae ratione consequuntur natus perspiciatis non sunt nobis ducimus? Quisquam, dignissimos enim quo hic quas aperiam maxime tempore excepturi laboriosam aspernatur atque animi voluptates maiores nihil!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas eum ad earum id neque, quam minus eaque dolor necessitatibus eligendi.</p>
                     </div>
                 </div>
             </section>
