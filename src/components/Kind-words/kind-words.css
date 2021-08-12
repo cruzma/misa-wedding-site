@@ -35,6 +35,13 @@
     height: 600px;
 }
 
+
+@media screen and (max-width: 1030px){
+    .client-words{
+        padding: 20px;
+    }
+}
+
 @media screen and (max-width: 770px){
     .kindwords-container{
         flex-direction: column;
@@ -46,7 +53,9 @@
     .kindwords-right{
         width: 100%;
     }
-
+    .client-words{
+        padding: 20px 65px 20px 65px;
+    }
 
 }
 
