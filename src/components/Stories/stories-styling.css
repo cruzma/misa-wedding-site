@@ -53,6 +53,12 @@
     align-items: center;
 }
 
+.centered div h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 36px;
+}
+
 .centered div p{
     color: white;
 }

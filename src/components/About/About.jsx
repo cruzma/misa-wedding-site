@@ -5,7 +5,7 @@ function About(props){
     return(
         <div className="wrapper about-wrapper-fix fade-in">
             <section className="top-banner">
-                <h1>About Me</h1>
+                <h1>about me</h1>
                
             </section>
             <section className="mid-section">

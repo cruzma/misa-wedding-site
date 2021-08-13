@@ -30,6 +30,11 @@
     text-align: center;
 }
 
+.client-words h1{
+    font-family: FuturaLight;
+    font-style: italic;
+}
+
 .image-size{
     width:50%;
     height: 600px;

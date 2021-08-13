@@ -17,7 +17,7 @@
 }
 
 .top-banner h1{
-    font-size: 100px;
+    font-size: 70px;
 }
 
 .mid-section{
@@ -59,8 +59,10 @@
     grid-column: span 5;
 } */
 
-h2{
-    font-family: 'Great Vibes', cursive;
+.bottom-section-item h2{
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: Adelia;
+    font-size: 15px;
 }
 
 /* .values-box{
