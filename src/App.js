@@ -7,52 +7,27 @@ import Contact from './components/Contact/Contact';
 import Kindwords from './components/Kind-words/Kindwords';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
-import React, { useState } from 'react';
+import Boho from './components/Boho/Boho';
+import React from 'react';
+import {Switch, Route } from "react-router-dom";
+
 
 function App() {
 
-  const [homeSelected, setHomeSelected] = useState(true);
-  const [aboutSelected, setAboutSelected] = useState(false);
-  const [storiesSelected, setStoriesSelected] = useState(false);
-  const [servicesSelected, setServicesSelected] = useState(false);
-  const [contactsSelected, setContactsSelected] = useState(false);
-  const [KindwordsSelected, setKindwordsSelected] = useState(false);
 
   return (
     <div> 
-      <Header
-        setHomeSelected = {setHomeSelected}
-        homeSelected ={homeSelected}
-        aboutSelected ={aboutSelected}
-        setAboutSelected = {setAboutSelected}
-        storiesSelected = {storiesSelected}
-        setStoriesSelected = {setStoriesSelected}
-        servicesSelected = {servicesSelected}
-        setServicesSelected = {setServicesSelected}
-        contactsSelected = {contactsSelected}
-        setContactsSelected = {setContactsSelected}
-        KindwordsSelected = {KindwordsSelected}
-        setKindwordsSelected = {setKindwordsSelected}
-      ></Header>
+      <Header></Header>
       <main>
-        {!aboutSelected && !storiesSelected && !servicesSelected && !contactsSelected && !KindwordsSelected ?(
-          <>
-            <Home></Home>
-          </>
-        ) : aboutSelected ? (
-          <About></About>
-        ) : servicesSelected ? (
-          <Services></Services>
-        ) : KindwordsSelected ? (
-          <Kindwords></Kindwords>
-        ) : storiesSelected ? (
-          <Stories></Stories>
-        ) : contactsSelected ? (
-          <Contact></Contact>
-        ) : (
-          <Home></Home>
-        )
-        }
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/About" component={About} />
+          <Route path="/Services" component={Services} />
+          <Route path="/Kind-words" component={Kindwords} />
+          <Route path="/Stories" component={Stories} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Boho" component={Boho} />
+        </Switch>
        
       </main>
       

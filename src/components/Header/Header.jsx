@@ -1,16 +1,8 @@
 import React, { useState } from 'react';
 import './header-style.css'
+import { Link } from 'react-router-dom';
 
 function Header(props) {
-
-    const {
-        setHomeSelected,
-        setAboutSelected,
-        setStoriesSelected,
-        setServicesSelected,
-        setContactsSelected,
-        setKindwordsSelected
-    } = props
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -32,54 +24,12 @@ function Header(props) {
                 <div></div>
         </div>
             <ul className={click ? "link-list active" : "link-list"}>
-                <li><a href="#" onClick={() => {
-                    setHomeSelected(true);
-                    setAboutSelected(false);
-                    setStoriesSelected(false);
-                    setServicesSelected(false);
-                    setContactsSelected(false);
-                    setKindwordsSelected(false);
-                }}>Home</a></li>
-                <li><a href="#" onClick={() => {
-                    setHomeSelected(false);
-                    setAboutSelected(true);
-                    setStoriesSelected(false);
-                    setServicesSelected(false);
-                    setContactsSelected(false);
-                    setKindwordsSelected(false);
-                }}>About</a></li>
-                <li><a href="#" onClick={() => {
-                    setHomeSelected(false);
-                    setAboutSelected(false);
-                    setStoriesSelected(false);
-                    setServicesSelected(true);
-                    setContactsSelected(false);
-                    setKindwordsSelected(false);
-                }}>Services</a></li>
-                <li><a href="#" onClick={() => {
-                    setHomeSelected(false);
-                    setAboutSelected(false);
-                    setKindwordsSelected(true);
-                    setStoriesSelected(false);
-                    setServicesSelected(false);
-                    setContactsSelected(false);
-                }}>Kind Words</a></li>
-                <li><a href="#" onClick={() => {
-                    setHomeSelected(false);
-                    setAboutSelected(false);
-                    setStoriesSelected(true);
-                    setServicesSelected(false);
-                    setContactsSelected(false);
-                    setKindwordsSelected(false);
-                }}>Stories</a></li>
-                <li><a href="#" onClick={() => {
-                    setHomeSelected(false);
-                    setAboutSelected(false);
-                    setStoriesSelected(false);
-                    setServicesSelected(false);
-                    setContactsSelected(true);
-                    setKindwordsSelected(false);
-                }}>Contact</a></li>
+                <li><Link to='/' >Home</Link></li>
+                <li><Link to='/About' >About</Link></li>
+                <li><Link to='/Services' >Services</Link></li>
+                <li><Link to='/Kind-words'>Kind Words</Link></li>
+                <li><Link to='/Stories' >Stories</Link></li>
+                <li><Link to='/Contact' >Contact</Link></li>
             </ul>
  
         </nav>

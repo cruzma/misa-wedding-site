@@ -1,8 +1,12 @@
 import React from 'react';
-
 import './stories-styling.css';
+import { Link } from 'react-router-dom';
+
 
 function Stories(prop){
+
+    
+
     return(
         <div className="wrapper fade-in">
             <div className="story-pitch">
@@ -16,12 +20,13 @@ function Stories(prop){
                     <div>
                         <h1>Minimalist boho style shoot</h1>
                         <p>June 18 2019 | Guild Inn Estate</p>
-                        <a href="#" className="gallery-container">
+                        <Link to='/Boho' className="gallery-container">
                            View Gallery 
-                        </a>
+                        </Link>
+                        
                     </div>
                 </div>
-                <img src={require("../../assets/images/MateoCass.jpg").default}></img>
+                <img src={require("../../assets/images/MateoCass.jpg").default} alt="bride and groom holding hands in a well lit area"></img>
 
             </div>
             <div className="story-container last-story">
@@ -30,7 +35,7 @@ function Stories(prop){
                         <h1>Coming Soon</h1>
                     </div>
                 </div>
-                <img src={require("../../assets/images/MelinaBen.jpg").default}></img>
+                <img src={require("../../assets/images/MelinaBen.jpg").default} alt="waves crashing on the feet of the brise and groom by the beach"></img>
             </div>
         </div>
     )
