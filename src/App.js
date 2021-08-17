@@ -20,6 +20,7 @@ function App() {
       <Header></Header>
       <main>
         <Switch>
+          <Route exact path="/misa-wedding-site" component={Home} />
           <Route exact path="/" component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Services" component={Services} />
