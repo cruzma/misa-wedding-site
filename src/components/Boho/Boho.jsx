@@ -1,8 +1,6 @@
 import React from 'react';
 import './boho-style.css';
-import { render } from "react-dom";
-import Gallery from "react-photo-gallery";
-import { photos } from "./photos";
+import BohoGallery from './BohoGallery';
 
 function Boho(prop){
 
@@ -10,7 +8,7 @@ function Boho(prop){
     // render(<BasicRows />, document.getElementsByClassName('boho-row-gallery'));
 
     return(
-        <section className="wrapper wrapper-fix">
+        <section className="wrapper wrapper-fix fade-in">
             <div className="boho-title">
                 <h1>Minimalist Boho Style Shoot</h1>
                 <h3>The Guild Inn Estate</h3>
@@ -40,10 +38,10 @@ function Boho(prop){
                 </div> 
             </div>
 
-            <div itemID='photo-gallery-boho'>
-                <Gallery photos={photos} /> 
+            
+            <BohoGallery />
 
-            </div>
+            
         </section>
     )
         
