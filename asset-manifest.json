@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/misa-wedding-site/static/css/main.6dc9d632.chunk.css",
-    "main.js": "/misa-wedding-site/static/js/main.dc46fe96.chunk.js",
-    "main.js.map": "/misa-wedding-site/static/js/main.dc46fe96.chunk.js.map",
+    "main.css": "/misa-wedding-site/static/css/main.7a4cec4a.chunk.css",
+    "main.js": "/misa-wedding-site/static/js/main.680dd9fc.chunk.js",
+    "main.js.map": "/misa-wedding-site/static/js/main.680dd9fc.chunk.js.map",
     "runtime-main.js": "/misa-wedding-site/static/js/runtime-main.fab33ed7.js",
     "runtime-main.js.map": "/misa-wedding-site/static/js/runtime-main.fab33ed7.js.map",
     "static/js/2.b93d20ff.chunk.js": "/misa-wedding-site/static/js/2.b93d20ff.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3aa88c27.chunk.js": "/misa-wedding-site/static/js/3.3aa88c27.chunk.js",
     "static/js/3.3aa88c27.chunk.js.map": "/misa-wedding-site/static/js/3.3aa88c27.chunk.js.map",
     "index.html": "/misa-wedding-site/index.html",
-    "static/css/main.6dc9d632.chunk.css.map": "/misa-wedding-site/static/css/main.6dc9d632.chunk.css.map",
+    "static/css/main.7a4cec4a.chunk.css.map": "/misa-wedding-site/static/css/main.7a4cec4a.chunk.css.map",
     "static/js/2.b93d20ff.chunk.js.LICENSE.txt": "/misa-wedding-site/static/js/2.b93d20ff.chunk.js.LICENSE.txt",
     "static/media/index.css": "/misa-wedding-site/static/media/adelia.6bde9a79.ttf",
     "static/media/DSCF5136.jpg": "/misa-wedding-site/static/media/DSCF5136.72ea05e6.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.fab33ed7.js",
     "static/js/2.b93d20ff.chunk.js",
-    "static/css/main.6dc9d632.chunk.css",
-    "static/js/main.dc46fe96.chunk.js"
+    "static/css/main.7a4cec4a.chunk.css",
+    "static/js/main.680dd9fc.chunk.js"
   ]
 }
