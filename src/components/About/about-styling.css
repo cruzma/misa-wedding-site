@@ -105,8 +105,8 @@
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 430px){
     .top-banner h1{
-        font-size: 25px;
+        font-size: 40px;
     }
 }
