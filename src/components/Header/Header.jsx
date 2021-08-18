@@ -7,6 +7,8 @@ function Header(props) {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
+
+
   return (
     <header>
         <div className="topNews">
