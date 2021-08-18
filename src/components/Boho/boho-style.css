@@ -13,6 +13,15 @@
     font-weight: lighter;
 }
 
+.boho-description p{
+    font-size: 17px;
+    
+}
+
 .boho-shoutouts{
     text-align: center;
+}
+
+.boho-shoutouts a{
+    color: inherit;
 }

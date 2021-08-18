@@ -17,17 +17,23 @@ function Boho(prop){
             <div className="boho-description">
                 <div>
                     <p>
-                    My vision for this shoot was minimal decor, with pops of dark moody colours of the flowers and wood. I got lovely bohemian vibes from the intricate "messy bun" look and the wide circle bottom of the white chiffon dress on our bride. The beautiful minimalist feels came from the naked cake (with it's pop of colour from the flowers) and the clear plates atop the gorgeous white vintage tables. Being surrounded by such a talented group of people can be intimidating, but everyone I got to work with were kind, supportive, and a joy to be around. This was a special shoot to me for two reasons. The first being my brother and his then fiancee modeling for the shoot. It was so sweet as they got "pre-wedding" nerves, and happily were lovey dovey together in front of the camera. The second reason was that it was my first style shoot. While I've assisted in style shoots prior, this was the first one I planned on my own - and I couldn't have been more happy with it! I'm grateful for everyone's support to achieve such a successful first style shoot. I hope you all take the time to not only admire the photos, but to also appreciate and support the hard work that each of these business owners are doing! Check them out!
+                    My vision for this shoot was minimal decor, with pops of dark moody colours of the flowers and wood. I got lovely bohemian vibes from the intricate "messy bun" look and the wide circle bottom of the white chiffon dress on our bride. The beautiful minimalist feels came from the naked cake (with it's pop of colour from the flowers) and the clear plates atop the gorgeous white vintage tables. 
+                    </p>
+                    <p>
+                    Being surrounded by such a talented group of people can be intimidating, but everyone I got to work with were kind, supportive, and a joy to be around. This was a special shoot to me for two reasons. The first being my brother and his then fiancee modeling for the shoot. It was so sweet as they got "pre-wedding" nerves, and happily were lovey dovey together in front of the camera. The second reason was that it was my first style shoot. While I've assisted in style shoots prior, this was the first one I planned on my own - and I couldn't have been more happy with it!
+                    </p>
+                    <p>
+                    I'm grateful for everyone's support to achieve such a successful first style shoot. I hope you all take the time to not only admire the photos, but to also appreciate and support the hard work that each of these business owners are doing! Check them out!
                     </p>
                 </div>
                 
                 <div className="boho-shoutouts">
-                    <p>Photography by Kyrollos Productions</p>
-                    <p>Hair by Mane by Anna</p>
-                    <p>Rentals by Vintage Rentals and Events</p>
+                    <p>Photography by <a href='https://www.tristankyrollos.com/'>Kyrollos Productions</a></p>
+                    <p>Hair by <a href='https://www.instagram.com/manebyanna/?hl=en'>Mane by Anna</a></p>
+                    <p>Rentals by <a href='https://www.vintagerentals.ca/'>Vintage Rentals and Events</a></p>
                     <p>Makeup by Cassie Jim</p>
-                    <p>Cakes by Samantha's Cake Shop</p>
-                    <p>Dress by White Studio Bridal</p>
+                    <p>Cakes by <a href='http://samanthascakeshop.ca/'>Samantha's Cake Shop</a></p>
+                    <p>Dress by <a href='https://www.whitestudiobridal.com/'>White Studio Bridal</a></p>
                     <p>Planning by me!</p>
                 </div>
 
