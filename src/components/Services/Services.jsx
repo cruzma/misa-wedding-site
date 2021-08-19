@@ -47,8 +47,8 @@ function Services(prop){
                     </div>
                 </div>
                 <div className="service-images-container">
-                    <div><img src={require("../../assets/images/Styled-2.jpg").default} alt="bouqet of flowers with the engagment ring in the center"></img></div>
-                    <div><img src={require("../../assets/images/Styled-28.jpg").default} alt="wedding plates and glasses setup up nicely on reception tables"></img></div>
+                    <div><img className='image-fit' src={require("../../assets/images/Styled-2.jpg").default} alt="bouqet of flowers with the engagment ring in the center"></img></div>
+                    <div><img className='image-fit' src={require("../../assets/images/Styled-28.jpg").default} alt="wedding plates and glasses setup up nicely on reception tables"></img></div>
                 </div>
             </section>
             <div>
@@ -56,8 +56,8 @@ function Services(prop){
             </div>
             <section className="service-section">
                 <div className="service-images-container">
-                    <div><img src={require("../../assets/images/Styled-5.jpg").default} alt="bride heels, wedding dress, woodwoven tiara, and wedding ring showcase from birds eye view"></img></div>
-                    <div><img src={require("../../assets/images/Styled-14.jpg").default} alt="bride and groom holding hands"></img></div>
+                    <div><img className='image-fit' src={require("../../assets/images/Styled-5.jpg").default} alt="bride heels, wedding dress, woodwoven tiara, and wedding ring showcase from birds eye view"></img></div>
+                    <div><img className='image-fit' src={require("../../assets/images/Styled-14.jpg").default} alt="bride and groom holding hands"></img></div>
                 </div>
                 <div className="service-details-left">
                     <div className="align-text-right">
@@ -145,8 +145,8 @@ function Services(prop){
                     </div>
                 </div>
                 <div className="service-images-container">
-                    <div><img src={require("../../assets/images/Styled-59.jpg").default} alt="bride cutting the wedding cake"></img></div>
-                    <div><img src={require("../../assets/images/Styled-5.jpg").default} alt="just the bride shoes, dress, wedding ring and crown"></img></div>
+                    <div><img className='image-fit' src={require("../../assets/images/Styled-59.jpg").default} alt="bride cutting the wedding cake"></img></div>
+                    <div><img className='image-fit' src={require("../../assets/images/Styled-5.jpg").default} alt="just the bride shoes, dress, wedding ring and crown"></img></div>
                 </div>
             </section>
             <div>

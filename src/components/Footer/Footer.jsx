@@ -21,9 +21,9 @@ function Footer(props){
             <section>
                 <h3>Follow</h3>
                 <div className="social-logo-group">
-                    <a href="https://www.instagram.com/mlcruzin/"><img src={require("../../assets/images/instagram.svg").default}/></a>
-                    <a href="https://twitter.com/mlcruzin"><img src={require("../../assets/images/twitter.svg").default}/></a>
-                    <a href="https://www.facebook.com/cruzin4life"><img src={require("../../assets/images/facebook.svg").default}/></a>
+                    <a href="https://www.instagram.com/mlcruzin/"><img className='image-fit' src={require("../../assets/images/instagram.svg").default}/></a>
+                    <a href="https://twitter.com/mlcruzin"><img className='image-fit' src={require("../../assets/images/twitter.svg").default}/></a>
+                    <a href="https://www.facebook.com/cruzin4life"><img className='image-fit' src={require("../../assets/images/facebook.svg").default}/></a>
                 </div>
             </section>
             

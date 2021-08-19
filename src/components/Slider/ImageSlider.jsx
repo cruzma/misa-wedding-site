@@ -29,7 +29,7 @@ const ImageSlider = ({ slides }) => {
                         {index === current && (
                             <div className="image">
                                 <div className="carousel-text"><h1>{slide.caption}</h1></div>
-                                <img src={slide.image} alt={slide.description} key={slide.id} />   
+                                <img className='image-fit' src={slide.image} alt={slide.description} key={slide.id} />   
                             </div>
                         )}
                        

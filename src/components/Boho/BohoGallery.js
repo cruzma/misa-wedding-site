@@ -19,8 +19,8 @@ function BohoGallery() {
   };
 
   return (
-    <div>
-      <Gallery photos={photos} onClick="openLightbox"/>
+    <div className='the-photo-gallery'>
+      <Gallery photos={photos} onClick={openLightbox}/>
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>

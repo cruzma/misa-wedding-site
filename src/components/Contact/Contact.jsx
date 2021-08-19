@@ -9,9 +9,9 @@ function Contact(prop){
             <div className="left-side">
                 <div className="hours-container">
                     <p>instagram: <a href='https://www.instagram.com/mlcruzin/'>@mlcruzin</a></p>
-                    <p>twitter <a href='https://twitter.com/mlcruzin'>@mlcruzin</a></p>
-                    <p>facebook <a href='https://www.facebook.com/cruzin4life'>@cruzin4life</a></p>
-                    <p>email <a href='mailto:lorenacruz@lovelorena.com'>lorenacruz@lovelorena.com</a></p>
+                    <p>twitter: <a href='https://twitter.com/mlcruzin'>@mlcruzin</a></p>
+                    <p>facebook: <a href='https://www.facebook.com/cruzin4life'>@cruzin4life</a></p>
+                    <p>email: <a href='mailto:lorenacruz@lovelorena.com'>lorenacruz@lovelorena.com</a></p>
 
                     <h3>Hours</h3>
                     <p>Monday: 9-6</p>
@@ -22,7 +22,7 @@ function Contact(prop){
                     <p>Saturday: 9-6</p>
                     <p>Sunday: Out of Office</p>
                 </div>
-                <div className="image-container"><img src={require("../../assets/images/DSCF5136.jpg").default} alt="bride and groom holding hands"></img></div>
+                <div className="image-container"><img className='image-fit' src={require("../../assets/images/DSCF5136.jpg").default} alt="bride and groom holding hands"></img></div>
             </div>
             <div className="right-side">
                 <h1>Connect</h1>

@@ -23,7 +23,7 @@ return(
                     </div>
                 </div>
                 <div className="featurePhotoContainer">
-                    <img src={require("../../assets/images/Styled-2.jpg").default} alt="bouquet of roses with engagement ring in the center"></img>
+                    <img className='image-fit' src={require("../../assets/images/Styled-2.jpg").default} alt="bouquet of roses with engagement ring in the center"></img>
                 </div>
             </div>
         </div>
